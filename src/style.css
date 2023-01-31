@@ -1,0 +1,15 @@
+/*General Styes*/
+
+*{
+    margin: 0px;
+}
+/*Hero Styles*/
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
