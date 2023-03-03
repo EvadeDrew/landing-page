@@ -7,51 +7,47 @@
     list-style-type: none;
 }
 
-.body{
+body{
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
+/*Header*/
 
-/*Hero Styles*/
-
-.hero{
-    margin: auto;
+header {
     background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8 ;
+}
+
+.nav {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.nav-elm{
-    margin: 0px 180px;
-   padding: 14px 24px;
-}
-
-.nav-elm h1{
-   color: white;
-   padding-top: 0px;
-   font-size: 24px;
-}
-
-.nav-elm ul{
+.nav ul{
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    gap: 1.5em;
 }
 
-.nav-elm li{
-    display: block;
-}
-
-.nav-elm li a {
+.nav a{
     font-size: 18px;
-    float: right;
-    display: block;
     color: #e5e7eb;
-    text-align: center;
-    margin-top: 0px;
-    padding: 14px 24px;
     text-decoration: none;
-    justify-content: flex-end;
 }
-    
+
+.nav a:hover{
+    color: red;
+}
+
+.nav a:active{
+    color: purple;
+}
+
+/* Main Styles */
+
