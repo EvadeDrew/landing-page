@@ -76,12 +76,17 @@ header {
     color: #f9faf8;
 }
 
+p {
+    color: #f9faf8;
+}
+
 button {
     padding: 7px 1em;
     width: 120px;
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
+    color: #e5e7eb;
 }
 
 .img {
